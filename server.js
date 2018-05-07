@@ -25,6 +25,6 @@ app.set('view engine', 'handlebars');
 app.use('/', routes);
 // Log (server-side) when our server has started
 
-app.listen (function () {
+app.listen (PORT,function () {
     console.log("Server listening on: http://localhost:" + PORT);
 });
